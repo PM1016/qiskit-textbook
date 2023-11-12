@@ -7,3 +7,9 @@ The materials and associated source code of this open-source textbook are licens
 
 # Contact
 For any issues, please contact Frank Harkins in the [Qiskit Slack workspace](https://ibm.co/joinqiskitslack). You can also email Frank Harkins (francis.harkins@ibm.com).
+#include <stdio.h>
+int main() {
+  printf("hello, world!\n");
+  return 0;
+}
+$ gcc -o hello_c hello.c
